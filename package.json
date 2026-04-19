@@ -1,0 +1,15 @@
+{
+  "name": "nics-creative-studio",
+  "version": "1.0.0",
+  "description": "Creative studio monorepo",
+  "private": true,
+  "workspaces": [
+    "app/web",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "cd app/web && npm run dev",
+    "build": "cd app/web && npm run build",
+    "start": "cd app/web && npm run start"
+  }
+}
